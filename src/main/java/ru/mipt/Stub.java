@@ -9,7 +9,6 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 public class Stub {
-    // token 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
     private static String requestQueueUrl;
     private static String responseQueueUrl;
     private static final RestTemplate restTemplate = new RestTemplate();
